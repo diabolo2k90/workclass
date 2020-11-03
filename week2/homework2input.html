@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formular comanda pizza</title>
+</head>
+
+<body>Pizza order
+    <br>
+    <br>
+    <form>
+        <label for="name">Nume</label>
+        <input type="text" name="nume" required minlength="3" maxlenght="10" value="John"/>
+        <br>
+        <label for="prenume">Prenume</label>
+        <input type="text" name="prenume"required minlength="3" maxlenght="10" value="Rice"/>
+        <br>
+        Email: <input type="email" name="email" required placeholder="Email"/>
+        <br>
+        <br>
+        Numar: <input type="number" name="quantity" min="1" max="7">
+        <br>         
+        <br>
+        Toping<br><input type="radio" name="Toping" value="Suprem" checked/>Suprem<br>
+        <input type="radio" name="Toping" value="Vegan"/>Vegan<br>
+        <input type="radio" name="Toping" value="Haway"/>Haway
+        <br>
+        <br>
+        Sauce: <select name="Sauce">
+            <option value="Dulce">Dulce</option>
+            <option value="Iute">Iute</option>
+            <option value="Extra_iute">Extraiute</option>
+        </select>
+
+
+        <br>
+
+        Extra:<br> <input type="checkbox" name="option1" value="cheese"/>Cheese<br>
+        <input type="checkbox" name="option2" value="Onions"/>Onions<br>
+        <input type="checkbox" name="option3" value="Olives"/>Olives<br>
+        <br>
+
+        <label for ="Delivery_Instruction">Delivery Instruction</label>
+        <br>
+        <br>
+
+        <textarea name="message" rows="10" cols="50" required></textarea>
+        <br>
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+        <input type="date" name="data" min="10-29-2020">
+
+
+        
+      
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
