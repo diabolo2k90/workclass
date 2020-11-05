@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homeworkform4</title>
+</head>
+
+<body>
+    <form>
+        <h1><b>My feedback form</b></h1>
+        <ul>
+            <li><label for="name">Name:</label><input type="text" id="name"></li>
+        </ul>
+        <ul>
+            <li><label for="email">Email:<input type="email" id="email"></label></li>
+        </ul>
+        <ul><li><label for="pass">Password:<input type="password" name="pass"></label></li></ul>
+        <ul><li><p>Please check all the emotions that apply to you:</p></li></ul>
+        <ul>
+            <li>Angry<input type="checkbox" name="emotion1" value="angry" checked></li>
+            <li>Sad<input type="checkbox" name="emotion2" value="Sad"></li>
+            <li>Happy<input type="checkbox" name="emotion3" value="happy"></li>
+            <li>Ambivalent<input type="checkbox" name="emotion4" value="ambivalent"></li>
+
+        </ul>
+        <ul>
+            <li><p>How satisfied were you with our service?</p></li>
+            <li>Very satisfied <input type="radio" name="level" value="very_satisfied" checked></li>
+            <li>Satisfied<input type="radio" name="level" value="satisfied"></li>
+            <li>Didn't care<input type="radio" name="level" value="didntcare"></li>
+            <li>Dissatisfied<input type="radio" name="level" value="dissatified"></li>
+            <li>Very dissatisfied<input type="radio" name="level" value="verydissatisfied"></li>
+        </ul>
+        <ul>
+            <li>Further comments:<textarea name="comment" rows="5" cols="20"></textarea></li>
+
+        </ul>
+        <ul><li>Bio photo:<input type="text"><input type="file" name="myfile"></li></ul>
+        <ul>
+            <li>Location visited:<select name="location">
+                <option value="">Select location</option>
+                <option value="iasi">Iasi</option>
+                <option value="liverpool">Liverpool</option>
+                <option value="barcelona">Barcelona</option>
+                <option value="lasvegas">Las Vegas</option>
+                <option value="newyork">New York</option>
+            </select></li>
+        </ul>
+        <ul>
+            <li><input type="submit" value="submit"></li>
+        </ul>
+
+
+    </form>
+
+</body>
+
