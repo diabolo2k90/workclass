@@ -1,0 +1,81 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 100%;
+    max-height: auto;
+    color: white;
+    text-overflow: hidden;
+    
+    
+    
+}
+.vertical {
+    background-color: darkcyan;
+    grid-area: 1 / 1 / 3 / 3;
+    padding: 20px;
+    
+}
+.tiles {
+    background-color: rgb(200, 216, 52);
+    grid-area: 3 / 1 / 5 / 3;
+    padding: 20px;
+    color: black;
+    
+
+}
+.middle {
+    background-color: rgb(15, 15, 228);
+    grid-area: 1 / 3 / 5 / 5;
+    padding: 20px;
+        
+    
+}
+.wide {
+    grid-area: 5 / 1 / 9 / 5;
+    padding: 20px;
+    background-color: rgb(255, 72, 0);
+
+}
+.tall {
+    grid-area: 1 / 5 / 9 / 7;
+    padding: 20px;
+    background-color: rgb(116, 196, 116);
+
+}
+.img {
+    width: 100%;
+    height: 80%;
+    display: block;
+    object-fit: cover;}
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+.container {
+display: contents;
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+		
+}
